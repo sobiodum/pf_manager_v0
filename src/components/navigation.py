@@ -35,29 +35,3 @@ def create_navigation():
         className="flex-column nav-pills"
         )
     ], className="nav-sidebar bg-dark")
-
-# Navigation callback
-def init_navigation_callbacks(app):
-    """Initialize navigation callbacks."""
-    @app.callback(
-        dash.Output('current-page', 'data'),
-        [
-            dash.Input('nav-home', 'n_clicks'),
-            dash.Input('nav-portfolio-builder', 'n_clicks'),
-            dash.Input('nav-portfolio-monitor', 'n_clicks')
-        ]
-    )
-    def navigate(home_clicks, builder_clicks, monitor_clicks):
-        """Handle navigation between pages."""
-        ctx = dash.callback_context
-        if not ctx.triggered:
-            return 'landing'
-            
-        button_id = ctx.triggered[0]['prop_id'].split('.')[0]
-        
-        if button_id == 'nav-portfolio-builder':
-            return 'portfolio-builder'
-        elif button_id == 'nav-portfolio-monitor':
-            return 'portfolio-monitor'
-        else:
-            return 'landing'

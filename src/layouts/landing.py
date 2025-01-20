@@ -27,7 +27,8 @@ layout = dbc.Container([
                             ],
                             color="primary",
                             size="lg",
-                            id="create-portfolio-btn",
+                            id={'type': 'landing-button', 'page': 'portfolio-builder'},
+                            n_clicks=0,
                             className="me-3"
                         ),
                     ], width="auto"),
@@ -39,7 +40,8 @@ layout = dbc.Container([
                             ],
                             color="secondary",
                             size="lg",
-                            id="view-portfolios-btn",
+                            id={'type': 'landing-button', 'page': 'portfolio-monitor'},
+                            n_clicks=0,
                             className="me-3"
                         ),
                     ], width="auto"),
