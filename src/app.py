@@ -28,6 +28,7 @@ app = dash.Dash(
 
 # Main app layout
 app.layout = html.Div([
+
     # Store for current page
     dcc.Store(id='current-page', data='landing'),
     
