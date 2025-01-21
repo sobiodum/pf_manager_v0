@@ -107,9 +107,24 @@ def create_metrics_section():
     """Create the portfolio metrics section."""
     return dbc.Card([
         dbc.CardHeader([
-            html.H5("Portfolio Analysis", className="mb-0")
+            dbc.Row([
+                dbc.Col(html.H5("Portfolio Analysis", className="mb-0"), width=8),
+                dbc.Col(
+                    dbc.Button(
+                        [html.I(className="fas fa-chart-line me-2"), "Generate Portfolio"],
+                        id="generate-portfolio-btn",
+                        color="success",
+                        className="float-end",
+                        n_clicks=0
+                    ),
+                    width=4
+                )
+            ])
         ]),
         dbc.CardBody([
+            # Status message for data loading
+            html.Div(id="portfolio-status-message", className="mb-3"),
+            
             # Performance chart
             dcc.Graph(
                 id="performance-chart",

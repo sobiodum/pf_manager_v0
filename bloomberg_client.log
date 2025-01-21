@@ -1,0 +1,24 @@
+2025-01-21 09:47:11,917 - services.bloomberg_client - ERROR - Error searching securities: Operation '//blp/refdata/ExcelGetGridRequest' was not found on service '//blp/refdata.' (0x0006000d)
+2025-01-21 09:53:51,037 - services.bloomberg_client - ERROR - Error searching securities: Operation '//blp/refdata/ExcelGetGridRequest' was not found on service '//blp/refdata.' (0x0006000d)
+2025-01-21 09:54:03,840 - services.bloomberg_client - ERROR - Error searching securities: Operation '//blp/refdata/ExcelGetGridRequest' was not found on service '//blp/refdata.' (0x0006000d)
+2025-01-21 09:56:02,172 - services.bloomberg_client - ERROR - Error searching securities: Operation '//blp/refdata/ExcelGetGridRequest' was not found on service '//blp/refdata.' (0x0006000d)
+2025-01-21 10:01:36,817 - services.bloomberg_client - ERROR - Error searching securities: Operation '//blp/refdata/ReferenceDataRequest' was not found on service '//blp/refdata.' (0x0006000d)
+2025-01-21 10:43:44,636 - services.bloomberg_client - ERROR - Error getting historical data: Cannot save file into a non-existent directory: 'data'
+2025-01-21 10:43:48,698 - services.bloomberg_client - ERROR - Error getting historical data: Cannot save file into a non-existent directory: 'data'
+2025-01-21 10:43:50,943 - services.bloomberg_client - ERROR - Error getting historical data: Cannot save file into a non-existent directory: 'data'
+2025-01-21 10:43:53,386 - services.bloomberg_client - ERROR - Error getting historical data: Cannot save file into a non-existent directory: 'data'
+2025-01-21 10:43:53,615 - services.bloomberg_client - ERROR - Error getting historical data: Cannot save file into a non-existent directory: 'data'
+2025-01-21 10:43:55,984 - services.bloomberg_client - ERROR - Error getting historical data: Cannot save file into a non-existent directory: 'data'
+2025-01-21 10:43:56,267 - services.bloomberg_client - ERROR - Error getting historical data: Cannot save file into a non-existent directory: 'data'
+2025-01-21 11:05:38,887 - services.bloomberg_client - ERROR - Error getting historical data: Cannot save file into a non-existent directory: 'data'
+2025-01-21 11:27:14,233 - services.bloomberg_client - ERROR - Error getting historical data: Cannot save file into a non-existent directory: 'data'
+2025-01-21 11:32:44,986 - services.bloomberg_client - ERROR - Error getting historical data: Cannot save file into a non-existent directory: 'data'
+2025-01-21 11:38:45,026 - services.bloomberg_client - ERROR - Error getting historical data: Cannot save file into a non-existent directory: 'data'
+2025-01-21 11:47:31,238 - services.bloomberg_client - ERROR - Error getting historical data: 'NoneType' object has no attribute 'to_csv'
+2025-01-21 11:55:53,743 - services.bloomberg_client - ERROR - Failed to save CSV for AAPL US Equity: [Errno 13] Permission denied: 'data/AAPL_US_Equity_USD_20240725_20250121.csv'
+2025-01-21 17:40:46,853 - services.bloomberg_client - ERROR - Failed to open //blp/instruments service
+2025-01-21 17:41:01,701 - services.bloomberg_client - ERROR - Failed to open //blp/instruments service
+2025-01-21 17:41:44,105 - services.bloomberg_client - ERROR - Failed to save CSV for AAPL US Equity: [Errno 13] Permission denied: 'data/AAPL_US_Equity_USD_20240725_20250121.csv'
+2025-01-21 17:54:13,103 - services.bloomberg_client - ERROR - Error getting historical data: [Errno 13] Permission denied: 'data/portfolio_USD_20240122_20250121.csv'
+2025-01-21 18:01:14,601 - services.bloomberg_client - ERROR - Error getting historical data: [Errno 13] Permission denied: 'data/portfolio_USD_20240122_20250121.csv'
+2025-01-21 18:02:12,746 - services.bloomberg_client - ERROR - Failed to save CSV for AAPL US Equity: [Errno 13] Permission denied: 'data/AAPL_US_Equity_USD_20240725_20250121.csv'
